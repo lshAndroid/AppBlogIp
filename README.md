@@ -13,7 +13,7 @@ Adndroid blogipset is Custom demo,non-Google comes with* **android5.1使用完�
 
 ## 图片
 * ### 1、界面展示
-<img src="https://github.com/lshAndroid/AppBlogIp/blob/master/screenshot/ipgif.gif" width="400px" height="400px"/>
+<img src="https://github.com/lshAndroid/AppBlogIp/blob/master/screenshot/ipgif.gif" width="400px" height="700px"/>
 
 
 
