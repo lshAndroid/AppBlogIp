@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/ip_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="192.168.0.201"/>
+        <EditText
+            android:id="@+id/gateway_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="192.168.0.1"/>
+        <Button
+            android:id="@+id/bt_change_ip1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="静态Ip设置"/>
+        <Button
+            android:id="@+id/bt_change_ip2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="自动IpDHCP"/>
+        <Button
+            android:id="@+id/bt_change_ip3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="获取IP"/>
+        <Button
+            android:id="@+id/bt_change_ip4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DHCP或静态"/>
+        <Button
+            android:id="@+id/bt_change_ip5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="android6.0和7.0"/>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
